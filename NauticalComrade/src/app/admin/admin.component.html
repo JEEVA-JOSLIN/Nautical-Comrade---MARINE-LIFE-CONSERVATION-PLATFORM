@@ -1,0 +1,29 @@
+<!-- admin.component.html -->
+<div class="admin-dashboard">
+  <h1>Admin Dashboard</h1>
+  <div class="admin-options">
+    <button (click)="get()">View Users</button>
+    <button (click)="eve()">View Events</button>
+    <a routerLink="/admin/send-alert" class="admin-option">Send Alert</a>
+  </div>
+  <div class="user-list">
+    <div *ngFor="let user of users" class="user">
+      <span class="user-name">{{ user.email }}</span>
+      <span class="user-email">{{ user.password }}</span>
+      <button class="view-details-btn">View Details</button>
+      <button (click)="removeUser(user.email)" class="remove-user-btn">
+        Remove User
+      </button>
+    </div>
+  </div>
+  <div class="user-list">
+    <div *ngFor="let event of events" class="user">
+      <span class="user-name">{{ event.eventname }}</span>
+      <span class="user-email">{{ event.location }}</span>
+      <button class="view-details-btn">View Details</button>
+      <button (click)="removeEvent(event.eventname)" class="remove-user-btn">
+        Remove Event
+      </button>
+    </div>
+  </div>
+</div>

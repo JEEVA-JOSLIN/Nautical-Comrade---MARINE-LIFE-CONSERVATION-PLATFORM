@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-fluid {
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  max-width: 600px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.left-panel ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.left-panel ul li {
+  margin-bottom: 15px;
+}
+
+.left-panel ul li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.left-panel ul li a:hover {
+  color: #007bff;
+}
+
+.center-panel {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.alert-container {
+  position: relative;
+  display: inline-block;
+}
+
+.alert-symbol {
+  font-size: 30px;
+  color: #ff6347; /* Alert symbol color */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.alert-symbol:hover {
+  transform: scale(1.2);
+}
+
+.alert-popup {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: none;
+  z-index: 1;
+}
+
+.alert-popup.show {
+  display: block;
+}
+
+.alert-message {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.alert-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.alert-button:hover {
+  background-color: #0056b3;
+}
+
+.logout {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.logout button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+.logout button:hover {
+  background-color: #c82333;
+}

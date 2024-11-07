@@ -1,0 +1,27 @@
+<div *ngIf="!quizComplete">
+  <h2>Question {{ currentQuestionIndex + 1 }}</h2>
+  <img
+    [src]="questions[currentQuestionIndex].imageUrl"
+    alt="Marine Life Image"
+  />
+  <ul>
+    <li
+      *ngFor="
+        let option of questions[currentQuestionIndex].options;
+        let i = index
+      "
+      [class.selected]="i === selectedAnswer"
+      (click)="selectAnswer(i)"
+    >
+      {{ option }}
+    </li>
+  </ul>
+  <button (click)="nextQuestion()" [disabled]="selectedAnswer === null">
+    Next
+  </button>
+</div>
+
+<div *ngIf="quizComplete">
+  <h2>Quiz Complete!</h2>
+  <p>Your score: {{ score }} / {{ questions.length }}</p>
+</div>

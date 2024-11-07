@@ -1,0 +1,72 @@
+<form (ngSubmit)="createEvent()" #eventForm="ngForm">
+  <h1>CREATE EVENT</h1>
+  <div class="form-group">
+    <label for="username"><h2>Organizer Name</h2></label>
+    <input
+      type="text"
+      class="form-control"
+      id="username"
+      name="username"
+      [(ngModel)]="username"
+      disabled
+    />
+  </div>
+  <div class="form-group">
+    <label for="email"> <h2>Organizer Email</h2></label>
+    <input
+      type="email"
+      class="form-control"
+      id="email"
+      name="email"
+      [(ngModel)]="email"
+      disabled
+    />
+  </div>
+  <div class="form-group">
+    <label for="eventName"><h2>Event Name</h2></label>
+    <input
+      type="text"
+      class="form-control"
+      id="eventName"
+      name="eventName"
+      [(ngModel)]="eventName"
+      required
+    />
+  </div>
+
+  <div class="form-group">
+    <label for="location"><h2>Location</h2></label>
+    <input
+      type="text"
+      class="form-control"
+      id="location"
+      name="location"
+      [(ngModel)]="location"
+      required
+    />
+  </div>
+  <div class="form-group">
+    <label for="date"> <h2>Date</h2></label>
+    <input
+      type="date"
+      class="form-control"
+      id="date"
+      name="date"
+      [(ngModel)]="date"
+      required
+    />
+  </div>
+  <div class="form-group">
+    <label for="time"><h2>Time</h2></label>
+    <input
+      type="time"
+      class="form-control"
+      id="time"
+      name="time"
+      [(ngModel)]="time"
+      required
+    />
+  </div>
+  <!-- Add more fields as needed -->
+  <button type="submit" class="btn btn-primary">Create Event</button>
+</form>

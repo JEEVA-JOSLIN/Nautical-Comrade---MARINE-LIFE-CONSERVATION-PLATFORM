@@ -1,0 +1,23 @@
+<h2>Ocean Cleanup Events</h2>
+<div class="events-container">
+  <button (click)="get()">VIEW</button>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Event Name</th>
+        <th>Location</th>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let event of events" class="event">
+        <td>{{ event.eventname }}</td>
+        <td>{{ event.location }}</td>
+        <td>{{ event.date }}</td>
+        <td>{{ event.time }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

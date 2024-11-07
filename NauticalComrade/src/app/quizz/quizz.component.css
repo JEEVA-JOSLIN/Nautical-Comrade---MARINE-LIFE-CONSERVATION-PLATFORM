@@ -1,0 +1,23 @@
+/* Add your CSS styling here */
+img {
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
