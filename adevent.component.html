@@ -1,0 +1,13 @@
+<div class="events-container">
+  <h2>Admin Event View and Remove</h2>
+  <div class="event-list">
+    <div *ngFor="let event of events" class="event">
+      <h3>{{ event.name }}</h3>
+      <p><strong>Organizer:</strong> {{ event.organizerName }}</p>
+      <p><strong>Date:</strong> {{ event.date }}</p>
+      <p><strong>Time:</strong> {{ event.time }}</p>
+      <p><strong>Location:</strong> {{ event.location }}</p>
+      <!--button (click)="removeEvent(event.name)">Remove Event</button-->
+    </div>
+  </div>
+</div>
