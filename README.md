@@ -168,8 +168,8 @@ Nautical Comrade is a comprehensive web application designed to enhance marine c
 ---
 
 ## 📄 Project Documentation
-For a comprehensive project overview, please refer to our detailed presentation: 
-[MARINE LIFE CONSERVATION PLATFORM.pptx](https://github.com/user-attachments/files/17677785/MARINE.LIFE.CONSERVATION.PLATFORM.pptx)
+For a comprehensive project overview, please refer to the detailed report: 
+[NAUTICAL COMRADE MARINE LIFE CONSERVATION PLATFORM](https://github.com/user-attachments/files/17678713/Report.pdf)
 
 ---
 
