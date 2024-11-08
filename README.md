@@ -95,6 +95,68 @@ Nautical Comrade is a comprehensive web application designed to enhance marine c
 ![User Profile Screenshot](https://github.com/user-attachments/assets/56863faf-acb0-4b9a-82b7-abb11cbf73a4)
 **Description**: Customizable user profile with conservation badges, participation history, and personal information.
 
+
+
+## 🌟 User Interaction Features
+
+### 📝 Registration
+![Registration Screenshot](https://github.com/user-attachments/assets/2d517dae-9e3d-440b-8677-eed3b1a9b0dd)
+**Description**: A streamlined registration process that allows users to create an account easily. Key features include:
+- 🔒 Secure data entry
+- 📧 Email verification
+- 🌍 User type selection (individual, organization, fisherman)
+
+### 🚪 Sign In
+![Sign In Screenshot](https://github.com/user-attachments/assets/b1663f09-3455-426e-b483-c0aa93cd90ce)
+**Description**: Secure login interface that ensures user authentication with features such as:
+- 🔑 Password protection
+- 👤 Role-based access control
+- 🔄 Password recovery options
+
+### 👤 User Details
+![User  Details Screenshot](https://github.com/user-attachments/assets/1ad32438-3de1-4173-b9cb-5100c3d58c8b)
+**Description**: Comprehensive user profile management page, showcasing:
+- 📋 Personal information
+- 🏆 Conservation achievements
+- 🔄 Activity history tracking
+
+### 📅 Event Page
+![Event Page Screenshot](https://github.com/user-attachments/assets/1a1a04dd-0a06-4d4f-8337-8df2e1cbd99e)
+**Description**: Detailed event information page where users can:
+- 📅 View upcoming events
+- 📍 See event locations
+- 📬 Register for participation
+
+### 🔑 Change Password
+![Change Password Screenshot](https://github.com/user-attachments/assets/70d6e304-5ab6-4a50-84d9-21948207e655)
+**Description**: Secure password change interface that allows users to:
+- 🔄 Update their password
+- 🔒 Ensure account security with strong password requirements
+- 🚨 Receive alerts for password changes
+
+### ❓ Raise Inquiry
+![Raise Inquiry Screenshot](https://github.com/user-attachments/assets/bd49a7b7-e058-4976-9272-de4bbf7b9369)
+**Description**: User-friendly inquiry submission form where users can:
+- 📝 Submit questions or concerns
+- 📬 Receive timely responses from administrators
+- 🤝 Engage with conservation experts
+
+### 🚨 Alerts
+![Alerts Screenshot](https://github.com/user-attachments/assets/8d44a11b-c16e-4a82-b894-1ad64d4a0d0e)
+**Description**: Alerts management page where users can:
+- 📢 View important notifications from administrators
+- ⚠️ Receive updates on marine conservation issues
+- 📅 Stay informed about upcoming events
+
+### 🎉 Create Event
+![Create Event Screenshot](https://github.com/user-attachments/assets/846aecf6-f660-4a6a-b978-8bdf544ba7c4)
+![Screenshot (705)](https://github.com/user-attachments/assets/8adf0dbf-bf1b-47fc-b351-0196ac7b27e8)
+**Description**: Event creation interface allowing users to:
+- 🗓️ Organize beach cleanups and conservation events
+- 📍 Set event location and date
+- 📣 Invite participants and manage registrations
+
+---
 ---
 
 ## 📄 Project Documentation
@@ -102,49 +164,10 @@ For a comprehensive project overview, please refer to our detailed presentation:
 [MARINE LIFE CONSERVATION PLATFORM.pptx](https://github.com/user-attachments/files/17677785/MARINE.LIFE.CONSERVATION.PLATFORM.pptx)
 
 ---
-### Interactive Dashboard
-![Dashboard Screenshot](https://github.com/user-attachments/assets/3643ea88-532a-48f9-a11f-ac674f34dae5)
-
-### Registration
-![Species Exploration](https://github.com/user-attachments/assets/2d517dae-9e3d-440b-8677-eed3b1a9b0dd)
-
-### Sign In
-![Conservation Activities](https://github.com/user-attachments/assets/b1663f09-3455-426e-b483-c0aa93cd90ce)
 
 
 
 
-
-
-
-
-### User Details
-![Screenshot (689)](https://github.com/user-attachments/assets/1ad32438-3de1-4173-b9cb-5100c3d58c8b)
-
-
-
-
-
-
-### Event Page
-![Screenshot (700)](https://github.com/user-attachments/assets/1a1a04dd-0a06-4d4f-8337-8df2e1cbd99e)
-
-
-### Change Password
-![Screenshot (702)](https://github.com/user-attachments/assets/70d6e304-5ab6-4a50-84d9-21948207e655)
-
-
-### Raise Inquiry
-![Screenshot (701)](https://github.com/user-attachments/assets/bd49a7b7-e058-4976-9272-de4bbf7b9369)
-
-
-### Alerts
-![Screenshot (703)](https://github.com/user-attachments/assets/8d44a11b-c16e-4a82-b894-1ad64d4a0d0e)
-
-### Create Event
-![Screenshot (704)](https://github.com/user-attachments/assets/846aecf6-f660-4a6a-b978-8bdf544ba7c4)
-
-![Screenshot (705)](https://github.com/user-attachments/assets/8adf0dbf-bf1b-47fc-b351-0196ac7b27e8)
 
 
 
