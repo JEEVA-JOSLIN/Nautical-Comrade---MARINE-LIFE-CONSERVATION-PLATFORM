@@ -129,7 +129,7 @@ Nautical Comrade is a comprehensive web application designed to enhance marine c
 - 📬 Register for participation
 
 ### 🏆 Leaderboard
-![Leaderboard Screenshot]([https://github.com/user-attachments/assets/284fb989-9a55-413f-adcd-4c42839edbcb](https://github.com/user-attachments/assets/a41e258f-3dba-4132-9b68-7610e75ca7f9))
+![Leaderboard Screenshot](https://github.com/user-attachments/assets/a41e258f-3dba-4132-9b68-7610e75ca7f9)
 **Description**: Comprehensive user ranking system that motivates marine conservation participation, featuring:
 - 📊 Transparent point-based ranking mechanism
 - 🌊 Multiple performance metrics tracking
