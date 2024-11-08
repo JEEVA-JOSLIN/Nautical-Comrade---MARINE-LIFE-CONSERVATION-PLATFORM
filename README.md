@@ -6,6 +6,14 @@ Nautical Comrade is a marine life conservation platform dedicated to protecting 
 # Brief Description of the Project
 [MARINE LIFE CONSERVATION PLATFORM](https://github.com/user-attachments/files/17677785/MARINE.LIFE.CONSERVATION.PLATFORM.pptx)
 
+# 📋 Project Overview
+Nautical Comrade is a comprehensive web application designed to enhance marine conservation efforts. Key functionalities include:
+
+- **🗺 Location Mapping**: Visualize marine protected areas and species habitats.
+- **🐠 Species Profiles**: Detailed information on various marine species.
+- **🌍 Event Organization**: Users can organize and participate in marine conservation awareness events.
+- **📲 Alerts for Fishermen**: Registered fishermen receive critical notifications from administrators.
+- **📝 Reporting Mechanism**: Users can report sightings of endangered species and potential threats.
 
 ## 🛠 Technologies Used
 - **Frontend**: 
