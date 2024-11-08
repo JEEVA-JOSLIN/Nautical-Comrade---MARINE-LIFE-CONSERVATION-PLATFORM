@@ -1,0 +1,79 @@
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    color: #333;
+  }
+  h2{
+    color:rebeccapurple
+  }
+  .input-group {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .form-control {
+    width: 96%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromLeft {
+    from {
+      transform: translateX(-50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    from {
+      transform: translateX(50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply animation to form elements */
+  .form-group {
+    animation: slideInFromRight 1s ease;
+  }
+  
+  .btn {
+    animation: slideInFromLeft 1s ease;
+  }
+  

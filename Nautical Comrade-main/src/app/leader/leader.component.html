@@ -1,0 +1,11 @@
+<body>
+  <div>
+    <h1>LEADERBOARD</h1>
+    <ol>
+      <li *ngFor="let participant of topParticipants; let i = index">
+        {{ i + 1 }}. {{ participant.name }} -
+        {{ participant.events.length }} events participated
+      </li>
+    </ol>
+  </div>
+</body>

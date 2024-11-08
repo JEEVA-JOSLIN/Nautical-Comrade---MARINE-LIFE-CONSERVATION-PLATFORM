@@ -1,0 +1,65 @@
+<body>
+  <div class="events-container">
+    <div>
+      <label>Sort By:</label>
+      <select [(ngModel)]="sortBy" (change)="sort()">
+        <option value="eventname">Event Name</option>
+        <option value="organizer">Organizer Name</option>
+        <option value="state">State</option>
+        <option value="beach">Beach</option>
+      </select>
+    </div>
+    <div>
+      <label>Search By Organizer Name:</label>
+      <input
+        type="text"
+        [(ngModel)]="searchOrganizer"
+        (input)="applyFilters()"
+      />
+    </div>
+    <div>
+      <label>Filter By State:</label>
+      <select [(ngModel)]="filterState" (change)="applyFilters()">
+        <option value="">All</option>
+        <option *ngFor="let state of states" [value]="state">
+          {{ state }}
+        </option>
+      </select>
+    </div>
+    <div>
+      <label>Filter By Beach:</label>
+      <select [(ngModel)]="filterBeach" (change)="applyFilters()">
+        <option value="">All</option>
+        <option *ngFor="let beach of beaches" [value]="beach">
+          {{ beach }}
+        </option>
+      </select>
+    </div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Organizer Name</th>
+          <th>Organizer Email</th>
+          <th>Event Name</th>
+          <th>State</th>
+          <th>Beach</th>
+          <th>Date</th>
+          <th>Time</th>
+          <th>Participants Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let event of filteredEvents" class="event">
+          <td>{{ event.organizer }}</td>
+          <td>{{ event.email }}</td>
+          <td>{{ event.eventname }}</td>
+          <td>{{ event.state }}</td>
+          <td>{{ event.beach }}</td>
+          <td>{{ event.date }}</td>
+          <td>{{ event.time }}</td>
+          <td>{{ event.participants.length }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>

@@ -1,0 +1,11 @@
+<body>
+  <div class="user-list">
+    <div *ngFor="let event of events" class="user">
+      <span class="user-name">{{ event.eventname }}</span>
+      <span class="user-email">{{ event.location }}</span>
+      <button (click)="removeEvent(event.eventname)" class="remove-user-btn">
+        Remove Event
+      </button>
+    </div>
+  </div>
+</body>

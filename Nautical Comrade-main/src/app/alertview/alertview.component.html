@@ -1,0 +1,11 @@
+<body>
+  <div>
+    <h1>Alerts</h1>
+    <div *ngFor="let alert of alerts">
+      <h3>{{ alert.subject }}</h3>
+      <p>{{ alert.message }}</p>
+      <p>Posted Time: {{ alert.createdAt }}</p>
+      <hr />
+    </div>
+  </div>
+</body>

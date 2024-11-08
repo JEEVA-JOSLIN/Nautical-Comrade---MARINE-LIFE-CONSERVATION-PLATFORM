@@ -1,0 +1,22 @@
+<div class="container" *ngIf="score < questions.length">
+  <h2 class="question">Find the endangered species among the pictures:</h2>
+  <div>
+    <img
+      *ngFor="
+        let image of questions[currentQuestionIndex].images;
+        let i = index
+      "
+      [src]="image"
+      alt="Marine Life Image"
+      (click)="selectedAnswer = i"
+    />
+  </div>
+  <button (click)="checkAnswer()" [disabled]="selectedAnswer === -1">
+    Check Answer
+  </button>
+</div>
+
+<div class="container" *ngIf="score === questions.length">
+  <h2>Congratulations! You've completed the quiz!</h2>
+  <!-- You can display a summary of the quiz results here -->
+</div>

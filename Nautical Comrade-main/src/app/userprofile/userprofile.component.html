@@ -1,0 +1,164 @@
+<!-- profile.component.html -->
+
+<div class="container">
+  <h2>Profile</h2>
+  <form>
+    <div class="form-group">
+      <label for="username">Username</label>
+      <input
+        type="text"
+        class="form-control"
+        id="username"
+        name="username"
+        [(ngModel)]="username"
+        disabled
+      />
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input
+        type="email"
+        class="form-control"
+        id="email"
+        name="email"
+        [(ngModel)]="email"
+        disabled
+      />
+    </div>
+    <div class="form-group">
+      <label for="firstName">First Name</label>
+      <input
+        type="text"
+        class="form-control"
+        id="firstName"
+        name="firstName"
+        [(ngModel)]="firstName"
+      />
+    </div>
+    <div class="form-group">
+      <label for="lastName">Last Name</label>
+      <input
+        type="text"
+        class="form-control"
+        id="lastName"
+        name="lastName"
+        [(ngModel)]="lastName"
+      />
+    </div>
+    <div class="form-group">
+      <label>Gender</label>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="gender"
+          id="male"
+          value="male"
+          [(ngModel)]="gender"
+        />
+        <label class="form-check-label" for="male">Male</label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="gender"
+          id="female"
+          value="female"
+          [(ngModel)]="gender"
+        />
+        <label class="form-check-label" for="female">Female</label>
+      </div>
+      <div class="form-check">
+        <input
+          class="form-check-input"
+          type="radio"
+          name="gender"
+          id="other"
+          value="other"
+          [(ngModel)]="gender"
+        />
+        <label class="form-check-label" for="other">Other</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="occupation">Occupation</label>
+      <input
+        type="text"
+        class="form-control"
+        id="occupation"
+        name="occupation"
+        [(ngModel)]="occupation"
+      />
+    </div>
+    <div class="form-group">
+      <label for="state">State</label>
+      <select
+        class="form-control"
+        id="state"
+        name="state"
+        [(ngModel)]="state"
+        (change)="onStateChange()"
+      >
+        <option value="">Select State</option>
+        <option value="Andhra Pradesh">Andhra Pradesh</option>
+        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+        <option value="Assam">Assam</option>
+        <option value="Bihar">Bihar</option>
+        <option value="Chandigarh">Chandigarh</option>
+        <option value="Chhattisgarh">Chhattisgarh</option>
+        <option value="Dadra and Nagar Haveli and Daman and Diu">
+          Dadra and Nagar Haveli and Daman and Diu
+        </option>
+        <option value="Delhi">Delhi</option>
+        <option value="Goa">Goa</option>
+        <option value="Gujarat">Gujarat</option>
+        <option value="Haryana">Haryana</option>
+        <option value="Himachal Pradesh">Himachal Pradesh</option>
+        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+        <option value="Jharkhand">Jharkhand</option>
+        <option value="Karnataka">Karnataka</option>
+        <option value="Kerala">Kerala</option>
+        <option value="Ladakh">Ladakh</option>
+        <option value="Lakshadweep">Lakshadweep</option>
+        <option value="Madhya Pradesh">Madhya Pradesh</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Manipur">Manipur</option>
+        <option value="Meghalaya">Meghalaya</option>
+        <option value="Mizoram">Mizoram</option>
+        <option value="Nagaland">Nagaland</option>
+        <option value="Odisha">Odisha</option>
+        <option value="Puducherry">Puducherry</option>
+        <option value="Punjab">Punjab</option>
+        <option value="Rajasthan">Rajasthan</option>
+        <option value="Sikkim">Sikkim</option>
+        <option value="Tamil Nadu">Tamil Nadu</option>
+        <option value="Telangana">Telangana</option>
+        <option value="Tripura">Tripura</option>
+        <option value="Uttar Pradesh">Uttar Pradesh</option>
+        <option value="Uttarakhand">Uttarakhand</option>
+        <option value="West Bengal">West Bengal</option>
+        <!-- Add other states here -->
+      </select>
+    </div>
+    <div class="form-group" *ngIf="selectedState">
+      <label for="district">District</label>
+      <select
+        class="form-control"
+        id="district"
+        name="district"
+        [(ngModel)]="district"
+      >
+        <option value="">Select District</option>
+        <option *ngFor="let district of districts" [value]="district">
+          {{ district }}
+        </option>
+      </select>
+    </div>
+    <button type="button" class="btn btn-primary" (click)="save()">Save</button>
+    <button type="button" class="btn btn-secondary" (click)="reset()">
+      Reset
+    </button>
+  </form>
+</div>

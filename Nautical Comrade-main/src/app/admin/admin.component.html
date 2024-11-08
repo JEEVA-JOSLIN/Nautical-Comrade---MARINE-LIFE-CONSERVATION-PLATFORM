@@ -1,0 +1,30 @@
+<!-- admin.component.html -->
+<div class="admin-dashboard">
+  <h1>Admin Dashboard</h1>
+  <div class="admin-options">
+    <a routerLink="/remuser" class="admin-option">Remove Users</a>
+    <a routerLink="/remevent" class="admin-option">Remove Events</a>
+    <a routerLink="/userlist" class="admin-option">View Users</a>
+    <a routerLink="/adevent" class="admin-option">View Events</a>
+    <a routerLink="/alert" class="admin-option">Send Alert</a>
+    <a routerLink="/respond" class="admin-option">View Complaints</a>
+  </div>
+  <div class="user-list">
+    <div *ngFor="let user of users" class="user">
+      <span class="user-name">{{ user.name }}</span>
+      <span class="user-email">{{ user.email }}</span>
+      <button (click)="removeUser(user.email)" class="remove-user-btn">
+        Remove User
+      </button>
+    </div>
+  </div>
+  <div class="user-list">
+    <div *ngFor="let event of events" class="user">
+      <span class="user-name">{{ event.eventname }}</span>
+      <span class="user-email">{{ event.location }}</span>
+      <button (click)="removeEvent(event.eventname)" class="remove-user-btn">
+        Remove Event
+      </button>
+    </div>
+  </div>
+</div>

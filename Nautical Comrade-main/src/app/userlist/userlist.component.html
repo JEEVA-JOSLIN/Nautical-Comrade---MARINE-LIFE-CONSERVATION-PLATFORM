@@ -1,0 +1,61 @@
+<body>
+  <h2>Users</h2>
+  <div class="events-container">
+    <div>
+      <label>Sort By:</label>
+      <select [(ngModel)]="sortBy" (change)="sort(sortBy)">
+        <option value="name">Name</option>
+        <option value="email">Email</option>
+        <!-- Add more options for other fields -->
+      </select>
+    </div>
+    <div>
+      <label>Filter By State:</label>
+      <select [(ngModel)]="filterState" (change)="applyFilters()">
+        <option value="">All</option>
+        <option *ngFor="let state of states" [value]="state">
+          {{ state }}
+        </option>
+      </select>
+    </div>
+    <div>
+      <label>Filter By District:</label>
+      <select [(ngModel)]="filterDistrict" (change)="applyFilters()">
+        <option value="">All</option>
+        <option *ngFor="let district of districts" [value]="district">
+          {{ district }}
+        </option>
+      </select>
+    </div>
+    <div>
+      <label>Search By Email:</label>
+      <input type="text" [(ngModel)]="searchEmail" (input)="applyFilters()" />
+    </div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th (click)="sort('name')">Name</th>
+          <th (click)="sort('email')">Email</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Gender</th>
+          <th>Occupation</th>
+          <th>State</th>
+          <th>District</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let event of filteredUsers" class="event">
+          <td>{{ event.name }}</td>
+          <td>{{ event.email }}</td>
+          <td>{{ event.firstname }}</td>
+          <td>{{ event.lastname }}</td>
+          <td>{{ event.gender }}</td>
+          <td>{{ event.occupation }}</td>
+          <td>{{ event.state }}</td>
+          <td>{{ event.district }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>

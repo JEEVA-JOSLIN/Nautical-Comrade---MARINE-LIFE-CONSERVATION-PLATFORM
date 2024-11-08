@@ -1,0 +1,43 @@
+<body>
+  <div class="container">
+    <h1>Hello!! {{ name }} Join the Ocean Cleanup Events</h1>
+  </div>
+  <div class="events-container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Organizer Name</th>
+          <th>Organizer Email</th>
+          <th>Event Name</th>
+          <th>State</th>
+          <th>Beach</th>
+          <th>Date</th>
+          <th>Time</th>
+          <th>Participants</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let event of events" class="event">
+          <td>{{ event.organizer }}</td>
+          <td>{{ event.email }}</td>
+          <td>{{ event.eventname }}</td>
+          <td>{{ event.state }}</td>
+          <td>{{ event.beach }}</td>
+          <td>{{ event.date }}</td>
+          <td>{{ event.time }}</td>
+          <td>{{ event.participants }}</td>
+          <td>
+            <button
+              (click)="
+                joinOrUnjoin(event.eventname, event.participants.includes(name))
+              "
+            >
+              {{ event.participants.includes(name) ? "Unjoin" : "Join" }}
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>

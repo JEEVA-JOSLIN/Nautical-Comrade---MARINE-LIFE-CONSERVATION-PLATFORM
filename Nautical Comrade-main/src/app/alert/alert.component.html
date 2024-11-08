@@ -1,0 +1,12 @@
+<h2>Send Alert to All Users</h2>
+<div>
+  <div>
+    <label>Subject:</label>
+    <input type="text" [(ngModel)]="subject" />
+  </div>
+  <div>
+    <label>Message:</label>
+    <textarea [(ngModel)]="message"></textarea>
+  </div>
+  <button (click)="sendAlert()">Send</button>
+</div>

@@ -1,0 +1,24 @@
+<!-- admin.component.html -->
+<h2>Complaints</h2>
+
+<!-- Filter Options -->
+
+<!-- List of Inquiries -->
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Subject</th>
+        <th>Message</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let inquiry of inquiries">
+        <td>{{ inquiry.type }}</td>
+        <td>{{ inquiry.subject }}</td>
+        <td>{{ inquiry.message }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,62 @@
+/* Styling for the alert view */
+
+/* Center the alerts */
+body {
+    height: 100vh; /* Full viewport height */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/assets/images/hexwave.gif");
+    background-size: cover; /* Adjusts the background image to cover the entire container */
+    background-position: center; /* Centers the background image */
+ 
+  }
+div {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  /* Heading style */
+  h1 {
+    color: #f6f6f6;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Alert container style */
+  div > div {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  /* Alert subject style */
+  h3 {
+    color: #8C52FF;
+    margin-bottom: 10px;
+  }
+  
+  /* Alert message style */
+  p {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Posted time style */
+  p:last-child {
+    color: #777;
+    font-style: italic;
+  }
+  
+  /* Horizontal rule style */
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  

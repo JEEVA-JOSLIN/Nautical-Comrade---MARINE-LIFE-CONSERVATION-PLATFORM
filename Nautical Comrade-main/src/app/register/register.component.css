@@ -1,0 +1,82 @@
+@mixin z-2 {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23),
+    0 3px 12px rgba(0, 0, 0, 0.16);
+}
+
+.body {
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/assets/images/palau.webp");
+  background-size: cover; /* Adjusts the background image to cover the entire container */
+  background-position: center; /* Centers the background image */
+}
+
+.content {
+  background: rgba(
+    2,
+    202,
+    247,
+    0
+  ); /* Semi-transparent dark overlay for better readability */
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(39, 185, 233, 0);
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.content header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.content header h1 {
+  color: #021349; /* White color */
+  font-weight: bold; /* Bold font weight */
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.content form {
+  display: flex;
+  flex-direction: column;
+}
+
+.content form input {
+  background: #f0f0f0; /* Light gray */
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.button {
+  background: #2196f3; /* Material blue */
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background: #1976d2; /* Darker blue on hover */
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
