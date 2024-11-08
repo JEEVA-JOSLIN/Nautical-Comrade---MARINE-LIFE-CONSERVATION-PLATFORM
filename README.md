@@ -1,0 +1,3 @@
+# Nautical Comrade - MarineLife Conservation Platform
+
+The marine life conservation system is a web application that provides users with weather information, location mapping of marine protected areas and species habitats, and detailed profiles of marine species. Users can organize and participate in awareness events related to marine conservation. Registered fishermen receive alerts and notifications from administrators about critical information. The system allows reporting of endangered species sightings and potential threats. The application aims to promote marine conservation efforts by fostering a community of passionate individuals, raising awareness, and encouraging sustainable practices.
