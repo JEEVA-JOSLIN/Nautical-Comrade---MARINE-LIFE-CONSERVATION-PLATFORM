@@ -1,7 +1,11 @@
 # 🌊 Nautical Comrade - Marine Life Conservation Platform
+![Dashboard Screenshot](https://github.com/user-attachments/assets/3643ea88-532a-48f9-a11f-ac674f34dae5)
+
 
 ## 🚀 Description
 Nautical Comrade is a marine life conservation platform dedicated to protecting and preserving marine ecosystems. Our mission is to raise awareness about marine conservation issues and provide tools and resources for individuals and organizations to contribute to marine life protection.
+
+
 
 # Brief Description of the Project
 [MARINE LIFE CONSERVATION PLATFORM](https://github.com/user-attachments/files/17677785/MARINE.LIFE.CONSERVATION.PLATFORM.pptx)
@@ -29,9 +33,57 @@ Nautical Comrade is a comprehensive web application designed to enhance marine c
 - **Other Tools**: 
   - GitHub Actions
 
+## 📸 Detailed Screenshots with Descriptions
 
-## 🌟 Key Features
 
+
+### 🧩 Quiz Module
+![Quiz Screenshot](https://github.com/user-attachments/assets/2bf50836-f4e8-4d00-a153-354f610521c7)
+**Description**: Interactive quiz to test and enhance users' knowledge about marine conservation, marine life, and environmental awareness.
+
+### 🐳 Marine Endangered Species Catalog
+![Endangered Species Screenshot](https://github.com/user-attachments/assets/8dfefac7-60db-4aab-93d6-997206e6ec0c)
+**Description**: Comprehensive database of endangered marine species with detailed information, conservation status, and protection efforts.
+
+### 📞 Contact Page
+![Contact Screenshot](https://github.com/user-attachments/assets/7f0f88ff-f1f5-4b17-ad63-fdf0f20694dc)
+**Description**: Easy-to-use contact form for users to reach out, submit inquiries, and connect with marine conservation experts.
+
+### 👑 Admin Login
+![Admin Login Screenshot](https://github.com/user-attachments/assets/bd318fb7-4100-40d0-b204-6a76ac27d859)
+**Description**: Secure administrative login with advanced authentication and role-based access control.
+
+### 🖥 Admin Dashboard
+![Admin Dashboard Screenshot](https://github.com/user-attachments/assets/32aa3cf8-7a79-45b0-913d-f67b4f561acc)
+**Description**: Powerful management interface for administrators to monitor activities, manage users, and generate reports.
+
+### 👥 User Details Management
+![User Details Screenshot](https://github.com/user-attachments/assets/1ad32438-3de1-4173-b9cb-5100c3d58c8b)
+**Description**: Comprehensive user profile management with detailed tracking of conservation activities and contributions.
+
+### 🎉 Event Details
+![Event Details Screenshot](https://github.com/user-attachments/assets/1423a238-57d1-4064-b7d0-ab850e90efa6)
+**Description**: Detailed event information, including date, location, participants, and conservation objectives.
+
+### 📅 Event Listing
+![Event Listing Screenshot](https://github.com/user-attachments/assets/311c7597-3c0b-4275-8f59-73ad2ce85420)
+**Description**: Comprehensive event calendar showcasing upcoming marine conservation activities and opportunities.
+
+### 🏠 User Dashboard
+![User Dashboard Screenshot](https://github.com/user-attachments/assets/faf3e6da-d5ff-43a2-afb1-fb330bfd64ce)
+**Description**: Personalized dashboard displaying user's conservation activities, achievements, and recommended events.
+
+### 👤 User Profile
+![User Profile Screenshot](https://github.com/user-attachments/assets/56863faf-acb0-4b9a-82b7-abb11cbf73a4)
+**Description**: Customizable user profile with conservation badges, participation history, and personal information.
+
+---
+
+## 📄 Project Documentation
+For a comprehensive project overview, please refer to our detailed presentation: 
+[MARINE LIFE CONSERVATION PLATFORM.pptx](https://github.com/user-attachments/files/17677785/MARINE.LIFE.CONSERVATION.PLATFORM.pptx)
+
+---
 ### Interactive Dashboard
 ![Dashboard Screenshot](https://github.com/user-attachments/assets/3643ea88-532a-48f9-a11f-ac674f34dae5)
 
