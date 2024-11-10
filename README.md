@@ -4,6 +4,8 @@
 
 ## 🚀 Description
 Nautical Comrade is a marine life conservation platform dedicated to protecting and preserving marine ecosystems. Our mission is to raise awareness about marine conservation issues and provide tools and resources for individuals and organizations to contribute to marine life protection.
+
+For a brief look on the project,please refer to this presentation:
 [MARINE LIFE CONSERVATION PLATFORM](https://github.com/user-attachments/files/17677785/MARINE.LIFE.CONSERVATION.PLATFORM.pptx)
 
 # 📋 Project Overview
@@ -25,8 +27,6 @@ Nautical Comrade is a comprehensive web application designed to enhance marine c
   - Express.js
 - **Database**: 
   - MongoDB
-- **Other Tools**: 
-  - GitHub Actions
  
 ### 🧩 Knowledge Modules
 - **Quiz Module** 🎲
@@ -69,11 +69,11 @@ Nautical Comrade is a comprehensive web application designed to enhance marine c
 
 ### 👑 Admin Login
 ![Admin Login Screenshot](https://github.com/user-attachments/assets/bd318fb7-4100-40d0-b204-6a76ac27d859)
-**Description**: Secure administrative login with advanced authentication and role-based access control.
+**Description**: Secure administrative login.
 
 ### 🖥 Admin Dashboard
 ![Admin Dashboard Screenshot](https://github.com/user-attachments/assets/32aa3cf8-7a79-45b0-913d-f67b4f561acc)
-**Description**: Powerful management interface for administrators to monitor activities, manage users, and generate reports.
+**Description**: Management interface for administrators to monitor activities, manage users, and generate reports.
 
 ### 👥 User Details Management
 ![User Details Screenshot](https://github.com/user-attachments/assets/1ad32438-3de1-4173-b9cb-5100c3d58c8b)
@@ -93,7 +93,7 @@ Nautical Comrade is a comprehensive web application designed to enhance marine c
 
 ### 👤 User Profile
 ![User Profile Screenshot](https://github.com/user-attachments/assets/56863faf-acb0-4b9a-82b7-abb11cbf73a4)
-**Description**: Customizable user profile with conservation badges, participation history, and personal information.
+**Description**: Customizable user profile with personal information.
 
 
 
@@ -102,16 +102,14 @@ Nautical Comrade is a comprehensive web application designed to enhance marine c
 
 ### 📝 Registration
 ![Registration Screenshot](https://github.com/user-attachments/assets/2d517dae-9e3d-440b-8677-eed3b1a9b0dd)
-**Description**: A streamlined registration process that allows users to create an account easily. Key features include:
+**Description**: Registration process that allows users to create an account easily. Key features include:
 - 🔒 Secure data entry
 - 📧 Email verification
-- 🌍 User type selection (individual, organization, fisherman)
 
 ### 🚪 Sign In
 ![Sign In Screenshot](https://github.com/user-attachments/assets/b1663f09-3455-426e-b483-c0aa93cd90ce)
 **Description**: Secure login interface that ensures user authentication with features such as:
 - 🔑 Password protection
-- 👤 Role-based access control
 - 🔄 Password recovery options
 
 ### 👤 User Details
@@ -131,9 +129,7 @@ Nautical Comrade is a comprehensive web application designed to enhance marine c
 ### 🏆 Leaderboard
 ![Leaderboard Screenshot](https://github.com/user-attachments/assets/a41e258f-3dba-4132-9b68-7610e75ca7f9)
 **Description**: Comprehensive user ranking system that motivates marine conservation participation, featuring:
-- 📊 Transparent point-based ranking mechanism
-- 🌊 Multiple performance metrics tracking
-- 🏅 Gamification of conservation efforts
+- 📊 Point-based ranking mechanism
 
 ### 🔑 Change Password
 ![Change Password Screenshot](https://github.com/user-attachments/assets/70d6e304-5ab6-4a50-84d9-21948207e655)
@@ -147,15 +143,13 @@ Nautical Comrade is a comprehensive web application designed to enhance marine c
 **Description**: User-friendly inquiry submission form where users can:
 - 📝 Submit questions or concerns
 - 📬 Receive timely responses from administrators
-- 🤝 Engage with conservation experts
 
 ### 🚨 Alerts
 ![Alerts Screenshot](https://github.com/user-attachments/assets/8d44a11b-c16e-4a82-b894-1ad64d4a0d0e)
 **Description**: Alerts management page where users can:
 - 📢 View important notifications from administrators
 - ⚠️ Receive updates on marine conservation issues
-- 📅 Stay informed about upcoming events
-
+- 
 ### 🎉 Create Event
 ![Create Event Screenshot](https://github.com/user-attachments/assets/846aecf6-f660-4a6a-b978-8bdf544ba7c4)
 ![Screenshot (705)](https://github.com/user-attachments/assets/8adf0dbf-bf1b-47fc-b351-0196ac7b27e8)
